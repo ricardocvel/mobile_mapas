@@ -1,7 +1,7 @@
 import React from 'react';
 import { view, View } from 'react-native';
 
-function main() {
+function Main() {
     return <View/>
 }
 
