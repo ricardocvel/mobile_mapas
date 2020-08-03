@@ -1,8 +1,21 @@
-import React from 'react';
-import { view, View } from 'react-native';
+import React, { useEffect } from 'react';
+import { StyleSheet } from 'react-native';
+import  MapView  from 'react-native-maps';
 
-function main() {
-    return <View/>
+
+function Main() {
+    useEffect(() => {
+        async function loadInitialPosition(){
+            
+        }
+    })
+    return <MapView style={styles.map}/>
 }
+
+const styles = StyleSheet.create({
+    map: {
+        flex: 1
+    }
+})
 
 export default Main;
